@@ -1,9 +1,9 @@
-import Chatbot from './components/Chatbot';
+import FullScreenChatbot from './components/FullScreenChatbot';
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
-      <Chatbot />
-    </main>
+    <div className="h-screen w-screen">
+      <FullScreenChatbot />
+    </div>
   );
 }
