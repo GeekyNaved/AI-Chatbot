@@ -14,8 +14,8 @@ export async function POST(req: NextRequest) {
             {
                 headers: {
                     Authorization: `Bearer ${process.env.OPENROUTER_API_KEY}`,
-                    'HTTP-Referer': 'https://www.sitename.com',  // Replace with your site name
-                    'X-Title': 'SiteName',                       // Replace with your site title
+                    'HTTP-Referer': 'https://portfolio-naved.vercel.app/',  // Replace with your site name
+                    'X-Title': 'Naved Portfolio',                       // Replace with your site title
                     'Content-Type': 'application/json',
                 },
             }
